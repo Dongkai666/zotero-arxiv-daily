@@ -24,13 +24,13 @@ email:
 
 llm:
   api:
-    key: ??? # API Key of your LLM API. Example: sk-xxx
-    base_url: ??? # API URL of your LLM API. Example: https://api.openai.com/v1
+    key: sk-jsffuwbghbcajavhmqigzikvggarmpxbsjspygrjiyvxvgye # API Key of your LLM API. Example: sk-xxx
+    base_url: https://api.siliconflow.cn/v1 # API URL of your LLM API. Example: https://api.openai.com/v1
   api_mode: chat_completion # The LLM API to use. Options: chat_completion or response.
   generation_kwargs:
   # Arguments for the selected LLM API.
     max_tokens: 16384
-    model: ???
+    model: Qwen/Qwen3.5-4B
   language: English # Preferred language for the TL;DR. Example: English
 
 reranker:
